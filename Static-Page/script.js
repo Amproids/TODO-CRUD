@@ -20,6 +20,8 @@ function CreateItem() {
     itemArray.push(new ToDoItem(uniqueItemID, newItemInput.value));
     //increment uniqueItemID, for next item.
     uniqueItemID += 1;
+    //Clear out text box.
+    newItemInput.value = "";
     //Call ReadItemList() to display the new array on the page.
     ReadItemList();
 }

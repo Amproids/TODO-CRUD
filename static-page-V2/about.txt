@@ -1,1 +1,8 @@
 This is my second build, the code isn't based off the first, instead, I followed a tutorial, to try some new methods I hadn't seen for myself.
+This version takes advantage of the "addEventListener" funciton in JS, which simplifies MUCH of the code and logic in the entire project.
+(I wish I though of all this on my own haha)
+
+I did not write most of the code for this webpage myself.
+
+Tutorial Video Used:
+CodeDuck, "To Do List | Javascript Beginner Project Tutorial", https://www.youtube.com/watch?v=-pRg_daFjfk

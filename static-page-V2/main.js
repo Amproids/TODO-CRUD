@@ -11,7 +11,7 @@ addToDoButton.addEventListener("click", function(){
         paragraph.style.textDecoration = "line-through";
     })
     paragraph.addEventListener("dblclick", function(){
-        paragraph.remove();
+        toDoContainer.removeChild(paragraph);
     })
     toDoContainer.appendChild(paragraph);
 })
